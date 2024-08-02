@@ -8,8 +8,8 @@ app.use(cors());
 
 const server = createServer(app);
 const io = new Server(server, {
-  cors: { origin: "*" }, // Adjust CORS as needed
-  transports: ["websocket", "polling"],
+  cors: { origin: "*", methods: ["GET", "POST"] }, // Adjust CORS as needed
+  // transports: ["websocket", "polling"],
 });
 
 io.on("connection", (socket) => {
