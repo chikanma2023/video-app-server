@@ -1,0 +1,15 @@
+{
+  "name": "revamp_server",
+  "version": "1.0.0",
+  "description": "multimedia application that includes video chat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hart",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
